@@ -87,7 +87,7 @@ For Figure 9, the script saves:
 - The GAM figure scripts use different model specifications. Univariate and multivariable GAM results should not be interpreted as interchangeable.
 - Figures 7 and S1 identify dominant factors using fitted model contributions; these are not causal attribution estimates.
 - Figure 8 visualises precomputed perturbation results. Its upstream perturbation-generation workflow is not included in this figure-script collection.
-- Figure 9 trains a Random Forest using catchment-level predictors and applies it to gridded environmental data. Consistent units, feature order, and temporal aggregation are essential. The figure script does not implement an independent spatial validation experiment.
+- Figure 9 trains a Random Forest using catchment-level predictors and applies it to gridded environmental data. Consistent units, feature order, and temporal aggregation are essential. 
 - Figure 9 uses GPCC precipitation-data availability as a spatial mask, rather than a dedicated geographic land mask.
 
 ## Reproducibility status
