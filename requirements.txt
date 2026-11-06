@@ -1,0 +1,16 @@
+# Global Runoff Elasticity
+# Tested package versions from the author's working Python environment.
+# Install with: python -m pip install -r requirements.txt
+
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.8.4
+scipy==1.11.4
+pygam==0.9.1
+scikit-learn==1.4.2
+cartopy==0.24.1
+geopandas==1.0.1
+rasterio==1.4.3
+xarray==2025.7.1
+netCDF4==1.7.2
+joblib==1.4.2
