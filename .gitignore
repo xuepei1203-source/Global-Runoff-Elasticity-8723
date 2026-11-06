@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# Large, potentially restricted research data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+# Generated figures, model weights, and tables
+outputs/figures/*
+outputs/results/*
+outputs/models/*
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+!outputs/models/.gitkeep
+# Local and OS files
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
